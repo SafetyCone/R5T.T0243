@@ -16,8 +16,8 @@ namespace R5T.T0243
     /// <remarks>
     /// The marker attribute is useful for surveying assemblies and code, then building a catalogue of test fixture types.
     /// </remarks>
-    [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
     [MarkerAttributeMarker]
+    [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
     public class TestFixtureImplementationMarkerAttribute : Attribute,
         IMarkerAttributeMarker
     {
